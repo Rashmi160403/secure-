@@ -12,3 +12,4 @@ int main(){
     vulnerableFunction(input);
     return 0;
 }
+//format string attack: gcc -fno-stack-protector -z execstack -Wno-format-security -no-pie  format.c -o format
