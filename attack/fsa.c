@@ -12,3 +12,4 @@ int main(){
     vulnerableFunction(input);
     return 0;
 }
+// gcc -fno-stack-protector -z execstact -Wno-format-security -no-pie fsa.c -o fsa
