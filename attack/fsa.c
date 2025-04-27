@@ -3,7 +3,7 @@
 #include <stdlib.h>
 
 void vulnerableFunction(char *userInput){
-    printf("%s", userInput);
+    printf("%s",userInput);
 }
 int main(){
     char input[10];
@@ -12,4 +12,3 @@ int main(){
     vulnerableFunction(input);
     return 0;
 }
-// gcc -fno-stack-protector -z execstact -Wno-format-security -no-pie fsa.c -o fsa
